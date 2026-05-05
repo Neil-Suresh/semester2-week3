@@ -33,9 +33,10 @@
       double tax_ded = NI_ded - tax_dis;
 
     // Use only these print statement with appropriate formatting and variable names
-   printf("Salary: £%.2f \n", salary);
-   printf("NI contribution: £%.2f \n", NI_dis);
-   printf("Tax contribution: £%.2f \n", tax_dis);
-   printf("Take home salary: £%.2f \n", tax_ded);
+      printf("Salary: £%.2f \n", salary);
+      printf("NI contribution: £%.2f \n", NI_dis);
+      printf("Tax contribution: £%.2f \n", tax_dis);
+      printf("Take home salary: £%.2f \n", tax_ded);
+   
     return 0;
  }
